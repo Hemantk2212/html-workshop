@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Course Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c21414;
+            text-align: center;
+            margin: 0;
+        }
+
+        header {
+            background-color: #ebdbdb;
+            color: white;
+            padding: 15px;
+        }
+
+        nav {
+            background-color: #634141;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        section {
+            background: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-type: square;
+            text-align: left;
+            display: inline-block;
+        }
+
+        iframe {
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Web Development Course</h1>
+    <p>Learn HTML, CSS & JavaScript</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#modules">Modules</a>
+    <a href="#video">Video</a>
+</nav>
+
+<section id="modules">
+    <h2>Course Modules</h2>
+    <ul>
+        <li>HTML Basics</li>
+        <li>CSS Styling</li>
+        <li>Responsive Design</li>
+        <li>JavaScript Basics</li>
+    </ul>
+</section>
+
+<section id="video">
+    <h2>Course Demo Video</h2>
+    <iframe width="400" height="250"
+        src="https://www.youtube.com/watch?v=P5_JdvKWlxI"
+        allowfullscreen>
+    </iframe>
+</section>
+
+<footer>
+    <p>Contact: info@webcourse.com</p>
+    <p>© 2025 Online Course</p>
+</footer>
+
+</body>
+</html>
